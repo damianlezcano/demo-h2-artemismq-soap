@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS sample_data;
+
+CREATE TABLE sample_data (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    content VARCHAR(255)
+);
